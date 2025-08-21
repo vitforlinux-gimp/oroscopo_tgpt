@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+zodiac_sign="gemelli"
+
+if command -v lxterminal; then
+TERM="lxterminal -e "
+elif command -v sakura; then
+TERM="sakura -e "
+elif command -v cool-retro-term; then
+TERM="cool-retro-term -e "
+elif command -v deepin-terminal; then
+TERM="deepin-terminal -e "
+elif command -v xfce4-terminal; then
+TERM="xfce4-terminal --execute "
+elif command -v roxterm; then
+TERM="roxterm -e "
+elif command -v mate-terminal; then
+TERM="mate-terminal -e "
+elif command -v foot; then
+TERM="foot "
+elif command -v terminator; then
+TERM="terminator -x "
+elif command -v qterminal; then
+TERM="qterminal -e "
+elif command -v konsole; then
+TERM="konsole -e "
+elif command -v alacritty; then
+TERM="alacritty -e "
+elif command -v Eterm; then
+TERM="Eterm -e "
+elif command -v gnome-terminal; then
+TERM="gnome-terminal -- "
+elif command -v terminology; then
+TERM="terminology -e "
+elif command -v urxvt; then
+TERM="urxvt -e "
+elif command -v uxterm; then
+TERM="uxterm -e "
+elif command -v xterm; then
+TERM="xterm -e "
+fi
+
+$TERM tgpt -i "oroscopo di `date +%A\ %d\ %B\ %Y` per il segno dei "$zodiac_sign" in lingua italiana in 50 parole"
