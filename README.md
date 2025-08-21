@@ -15,7 +15,7 @@ Molti terminali sono supportati.
 
 This is a simple Bash script to get the horoscope in Italian via TGPT ... with some conditions
 
-1) that TGPT is installed in/USR/Local/Bin/TGPT
+1) that TGPT is installed in/usr/Local/bin/tgpt
 
 2) that your zodiac sign is indicated within the program file instead of gemelli
 
