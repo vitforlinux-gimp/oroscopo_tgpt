@@ -12,6 +12,7 @@ Questo è un semplice script in bash per ottenere l'oroscopo in italiano tramite
 Molti terminali sono supportati.
 
 (ENGLISH)
+
 This is a simple Bash script to get the horoscope in Italian via TGPT ... with some conditions
 
 1) that TGPT is installed in/USR/Local/Bin/TGPT
