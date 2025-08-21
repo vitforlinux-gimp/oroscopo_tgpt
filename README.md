@@ -7,7 +7,7 @@ Questo è un semplice script in bash per ottenere l'oroscopo in italiano tramite
 
 1) che TGPT sia installato in /usr/local/bin/tgpt
 
-2) che il vostro segno zodiacale sia indicato all interno del file del preogramma al posto di gemelli
+2) che il vostro segno zodiacale sia indicato all interno del file del programma al posto di gemelli
 
 Molti terminali sono supportati.
 
@@ -16,7 +16,7 @@ This is a simple Bash script to get the horoscope in Italian via TGPT ... with s
 
 1) that TGPT is installed in/USR/Local/Bin/TGPT
 
-2) that your zodiac sign is indicated within the preogram file instead of twins
+2) that your zodiac sign is indicated within the program file instead of gemelli
 
 Many terminals are supported.
 
