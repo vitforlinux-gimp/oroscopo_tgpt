@@ -1,5 +1,5 @@
 # oroscopo_tgpt
-A Bash script to get the italian horoscope via TGPT
+A Bash script to get the italian horoscope via TGPT in terminal
 
 (ITALIAN)
 
